@@ -1,0 +1,4 @@
+CREATE TABLE employee(userid int, username varchar(255), password varchar(255));
+CREATE TABLE address(username varchar(255) , street varchar(255), pincode varchar(255), country varchar(255), state varchar(255), phone long);
+INSERT INTO employee(userid, username, password) VALUES(1, 'Ram', 'ram123');
+INSERT INTO address(username, street, pincode, country, state, phone) VALUES('Ram', 'lohanipur', 800023, 'India', 'Bihar', 909766823);
